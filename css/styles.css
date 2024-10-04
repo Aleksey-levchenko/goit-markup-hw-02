@@ -51,9 +51,7 @@ a {
 .contacts-link:hover,
 .contacts-link:focus,
 .header-nav-link:hover,
-.header-nav-link:focus,
-.main-hero-btn:hover,
-.main-hero-btn:focus {
+.header-nav-link:focus {
   color: #404bbf;
 }
 
@@ -78,6 +76,11 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.main-hero-btn:hover,
+.main-hero-btn:focus {
+  background-color: #404bbf;
 }
 
 .visually-hidden {
